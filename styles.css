@@ -49,6 +49,8 @@ footer {
 .alignleft {
 	float: left;
 	margin: 0 10px 5px 0;
+	border-radius:50%;
+	width:300px;
 }
 
 /************ typography *************/
