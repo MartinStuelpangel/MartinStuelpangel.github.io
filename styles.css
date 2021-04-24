@@ -52,6 +52,11 @@ footer {
 	border-radius:50%;
 	width:300px;
 }
+.inner-photos{
+	margin:2px;
+	border-radius:50%;
+	width:100px;
+}
 
 /************ typography *************/
 
