@@ -1,0 +1,441 @@
+/* Write CSS rules here: */
+@charset "UTF-8";
+
+/* CSS Resets */
+h1, h2, h3, h4, p {
+    padding: 0;
+    margin: 0;
+}
+body{
+	padding: 0;
+    margin: 0;
+}
+/*end*/
+
+
+
+.parent-portal-font{
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size:16px;
+ 
+	
+	
+	
+}
+
+.parent-portal-button{
+	background:#FF9900;
+	width: 99px;
+	height: 24px;
+	align-items: center;
+	border-radius: 5px;
+	position: absolute;
+	padding: 8px 10px;
+	width: 137px;
+	height: 40px;
+	left: 1253px;
+	top: 77px;
+}
+
+h1, h2, .header{
+	color:#FF9900;
+	font-family: 'Alfa Slab One', cursive;
+	font-style: normal;
+	font-weight: 400;
+	
+}
+h1{
+	font-size: 48px;
+	line-height: 66px;
+}
+
+section > h1{
+	margin-left:9%;
+	padding-bottom:20px;
+}
+
+h2{
+	font-size: 32px;
+	line-height: 44px;
+}
+
+.yellow-square{
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+	padding: 8px 10px;
+	width: 137px;
+	background: #FF9900;
+	border-radius: 5px;
+ 
+}
+.top-logo{
+	
+	position:absolute;
+	display:flex;
+	z-index:10;
+	justify-content:space-between;
+	align-items:baseline;
+	width:100%;
+}
+.top-logo div{
+	margin:30px;
+}
+
+.header{
+	font-size: 32px;
+	line-height: 44px;
+	width:200px;
+	position:relative;
+}
+
+.header2{
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 33px;
+	 color: #151515;
+}
+
+.image-caption{
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 22px;
+	text-align: center;
+	color: #151515;
+	}
+
+.center-caption{
+	margin-top:20px;
+	background: #F5F5F5;
+}
+
+.art-text{
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 16px;
+		line-height: 22px;
+		color:  #F5F5F5;
+		width:40%;
+		position:relative;
+	
+}
+
+.art-text2{
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 22px;
+	color: #151515;
+	 
+	 
+  
+}
+  #logos {
+	 margin-top:8px;
+	 margin-bottom:12px;
+	 display: flex;
+	 justify-content: center;
+	  gap: 50px;
+ }
+
+ article{
+	 display:flex;
+	  padding:50px;
+	 justify-content:space-around;
+	  
+ }
+ 
+ hr{
+	width: 84%;
+	height: 0px;
+	border: 1px solid #FF9900;
+	position:absolute;
+	right:50%;
+	top:130%;
+
+ }
+ 
+ section{
+	background: #151515;
+	padding-bottom:60px;   
+ }
+ .big-box{
+	 display:flex;
+	 gap:30px;
+	 padding-left:9%;
+	 padding-right:9%;
+	  
+ }
+ .big-box article{
+	  padding:0px;
+	  width:100%;
+ }
+ .white-box{
+	 display:flex;
+	 flex-direction:column;
+	 background: #F5F5F5;
+	 height: 100%;
+	padding:20px;
+	  
+ }
+ .white-box p{
+	 margin-bottom:20px;
+	 margin-top:20px;
+ }
+ footer{
+	 background: #151515;
+ }
+ 
+ footer img{
+	 width:100%;
+	 height:auto;
+	 margin:0px;
+	 padding:0px;
+ }
+ 
+ footer section, form{
+	 display:flex;
+	 flex-direction:column;
+ }
+
+footer section{
+	width: 500px;
+	margin:auto;
+ 
+}
+footer h1{
+	 margin:auto;
+	 margin-top:30px;
+	 margin-bottom:20px;
+}
+.footer-logos{
+	  display: flex;
+	  justify-content: center;
+	  gap: 70px;
+	  position:absolute;
+	  top:50%;
+	  left:25%;
+}
+.footer-logos img{
+	 width: 100%;
+  height: auto;
+}
+.footer-image{
+	position:relative;
+}
+.footer-image h2{
+	position:absolute;
+	top:20%;
+	left:38%;
+	width:350px;
+}
+/**style form***/
+input{
+	height:30px;
+	padding:8px;
+	margin-bottom:14px;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	color:#7C7C7C;
+}
+input[type=submit]{
+	background:#FF9900;
+	color:black;
+	 border-radius: 10px;
+	 border:none;
+	 height:50px;
+	 margin-top:14px;
+	 
+}
+input[type=submit]:hover{
+	cursor: pointer;
+	background:#FFBD5C;
+	
+}
+
+
+
+/*slider styles*/
+#slider {
+	 width:100%;
+	 height:780px;
+	 overflow:hidden;
+     position:relative;
+	 margin:auto;
+}
+#slider:hover{
+	cursor: -webkit-grab; cursor: grab;
+}
+
+#slider ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+}
+
+#slider ul li img {
+	display: block;
+	width:1920px;
+	  
+ 
+}
+
+/****modal css***/
+.popup-box {
+  visibility: hidden;
+  position: fixed;
+  top: 20%;
+  left:10%;
+  background: white;
+  z-index:10;
+}
+
+.popup-box.visible {
+  visibility: visible;
+  text-align: center;
+}
+
+.popup-inner{
+  visibility: hidden;z-index:10;
+}
+
+.popup-inner.visible {
+  visibility: visible;
+}
+
+button {
+	  display: inline-block;
+	  vertical-align: middle;
+	  font-size:70px;
+	  color: #FF9900;
+	  background: white;
+	  font-family: 'Open Sans';
+	  border:0px;
+	  font-stretch: ultra-expanded;
+	  position:absolute;
+	  top:2px;
+	  left:40px;
+	  font-weight: lighter;
+  
+}
+
+button:hover {
+ cursor: pointer;
+ color:#FFBD5C;
+}
+
+.directions-text{
+	display:inline-block;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
+	width:320px;
+	color:#7C7C7C;
+	margin:auto;
+	padding-top:20px;
+}
+
+.popup-inner h1{
+	width:430px;
+	padding-top:75px;
+	padding-bottom:75px;
+	margin:auto;
+}
+
+.popup-inner form{
+	width:400px;
+	margin:auto;
+}
+
+
+/**media queries****/
+
+
+@media screen and (max-width: 1000px) { /******************************/
+
+ article{
+	 display:flex;
+	 flex-direction:column;
+	 padding:50px;
+	 justify-content:space-around;
+}
+ 
+ .art-text{
+	width:90%;
+ }
+ 
+  hr{
+	   right:0px;
+	   width:100%;
+}
+ 
+ .footer-image h2{
+	 line-height: 32px;
+ }
+ 
+
+}
+
+@media screen and (max-width: 800px) { /******************************/
+  .big-box{
+	 display:flex;
+	 flex-direction:column;
+  }
+  
+.footer-logos{
+	  gap:5px;
+	  left:10%;
+	}
+ 
+ .footer-logos img{
+	 width: 80%;
+   
+	}
+ .footer-image h2{
+	 line-height: 22px;
+	 font-size: 22px;
+	 width:300px;
+ }
+ 
+ 
+ 
+}
+
+@media screen and (max-width: 650px) { /******************************/
+
+footer section{
+ width:	400px;
+}	
+
+.popup-inner h1{
+	width:300px;
+	font-size: 38px;
+	line-height: 46px;
+	margin-top:20px;
+	}
+.popup-inner form{
+	width:300px;
+	}
+ 
+
+
+	
+}	
